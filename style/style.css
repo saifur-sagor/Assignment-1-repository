@@ -1,0 +1,389 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.main-section {
+  background-image: url('../image/Hero-bg.png');
+  background-size: cover;
+  background-position: center;
+  width:1440px;
+  height:698px;
+  margin: 0 auto;
+  color: #1d1d1d;
+  position: relative;
+   
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px;
+    color: #4E47FF;
+}
+.logo {
+  font-size: 34px;
+  font-weight: bold;
+  color: #4b4bf9;
+}
+.signup-btn {
+  background-color: #4b4bf9;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.signup-btn :hover{
+   background-color: brown;
+   transition: 0.10s  ;
+}
+.content {
+    text-align: center;
+    margin: 200px;
+}
+.content h1 {
+  font-size: 65px;
+  margin-bottom: 20px;
+}
+
+.main-btn {
+  background-color: #4b4bf9;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor:pointer;
+}
+
+.parent{
+  max-width:1190px ;
+  height: 328px;
+  margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+}
+
+.child h2{
+  font-size: 42px;
+  font-weight: bold;
+  margin-top: 150px;
+}
+.child p{
+  font-size: 30px;
+  margin-top: 12px;
+  margin-bottom: 22px;
+  margin-right: 100px;
+  color: rgb(113, 113, 113);
+}
+.child button{
+  font-size:24px ;
+  font-weight: bold;
+  margin-top: 12px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #4b4bf9;
+  border-radius: 10PX;
+  border: 0;
+  color: aliceblue;
+
+}
+
+
+.parent img{
+  width: 403px;
+  height: 328px;
+  margin-top: 100px;
+  border-radius: 30px;
+  margin-left: 80px;
+}
+
+
+/* join-parrent part */
+
+.join_parrent{
+  max-width: 1190px;
+  height: 328px;
+  background-color: #e6e4fd;
+  margin: auto;
+  border-radius: 25px;
+   
+}
+.join_second h2{
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 250px;
+  padding-top: 50px;
+
+}
+.join_third {
+  font-size: 80px;
+  font-weight: bold;
+  text-align: center; 
+  justify-content: space-between;
+  display: flex;
+  padding-top: 55px;
+  padding-left: 160px; 
+  padding-right: 160px;
+  color: #4E47FF;
+}
+.join_p{
+  font-size: 28px;
+  color: rgb(113, 113, 113);;
+  justify-content: space-between;
+  display: flex;
+  padding-left: 180px; 
+  padding-right: 180px;
+}  
+
+.user{
+  font-size: 42px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 137px;
+}
+ /* user part */
+ 
+.int_main {
+ max-width: 1140px;
+ height: 243px;
+ display: flex;
+ margin: auto;
+ gap: 20px;
+}
+   
+
+
+.img_main{
+  width: 366px;
+  height: 243px;
+  margin: auto;
+  margin-top:50px;
+  background-color: #fdfbfb;
+  border-radius: 20px;
+}
+.img_main{
+  width: 366px;
+  height: 243px;
+  margin: auto;
+  margin-top:50px;
+  background-color: #fdfbfb;
+  border-radius: 20px;
+}
+.img_main{
+  width: 366px;
+  height: 243px;
+  margin: auto;
+  margin-top:50px;
+  background-color: #fdfbfb;
+  border-radius: 20px;
+   
+}
+      
+   
+   
+  
+.img_first{
+ width: 116px;
+ height: 20px;
+ padding: 24px;
+   
+}
+.img_second h3{
+   padding-left: 24px;
+   padding-bottom: 5px;
+   padding-right:24 ;
+   font-size: 30px;
+}
+.img_second p{
+  padding-left: 24px;
+  font-size: 16px;
+  padding-bottom:8px;
+  color: rgb(80, 83, 85);
+  padding-right: 24px;
+}
+   
+.reviewer_box {
+display: flex;
+align-items: center;
+margin-top: 12px;
+gap: 10px;
+margin-left: 24px;
+margin-bottom: 24px;
+}
+.reviewer_img {
+ width: 50px;
+ height: 50px;
+ border-radius: 50%;  
+ object-fit: cover;
+ margin-right: 12px;
+}
+.reviewer_name {
+  font-weight: bold;
+  color: #333;
+  font-size: 25px;
+}
+.reviewer_date {
+  color: #888;
+  font-size: 20px;
+}
+   
+   /* ready focus */
+
+.ready_main{
+  max-width: 1140px;
+  height: 696.77px;
+  margin: auto;
+  background-color:#fdf6f6;
+  margin-top: 137px;
+  align-items: center;
+  border-radius: 15px;
+  
+} 
+.ready_focus h2{
+ font-size: 50px;
+ font-weight: bold;
+ text-align: center;
+ padding-top: 71px;
+ padding-bottom: 20px;
+
+
+}
+.ready_focus p{
+  font-size: 20px;
+  color: #888;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.ready_focus .ger_free{
+   margin-left: 472.5px;
+   margin-right: 472.5px;
+    
+   margin-bottom: 20px;
+   padding-left: 36px;
+   padding-right: 36px;
+   padding-top: 12px;
+   padding-bottom: 12px;
+   background-color: #4E47FF;
+   color: white;
+   border-radius: 10px;
+   border: 0;
+   font-size: 16px;
+}
+.ready_main img{
+  margin-left: 150px;
+  margin-right: 150px;
+  border-radius: 40px;
+}    
+ 
+/* form group */
+.container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+max-width: 1140px;
+height: 632px;
+margin: auto; 
+background-color: white;
+box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+border-radius: 10px;
+margin-top:92.23px ;
+      
+}
+.left {
+  width:528px; 
+  height: 232px;
+  margin-top:92.23px ;
+       
+} 
+.left h2 {
+  font-size: 97px;
+  font-weight: bold;
+}  
+.right {
+  width: 55%;
+  background-color: #f4f7fe;
+  padding: 30px;
+  border-radius: 10px;
+    }  
+      
+.form_group {
+  margin-bottom: 20px;
+    }      
+       
+  
+    .form_group label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    } 
+  
+  .form_group input,
+    .form_group textarea {
+      width: 100%;
+      padding: 15px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 16px;
+      background-color: white;
+    }  
+   
+   .form_group textarea {
+      resize: vertical;
+      height: 120px;
+    }
+
+    .btn {
+      background-color: #4f46e5;
+      color: white;
+      border: none;
+      padding: 15px 25px;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      width: 100%;
+    }
+  
+
+    /* last part */
+
+.footer{
+  background-color: white;
+  text-align: center;
+  padding: 50px 20px;
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.05);
+  width: 1440px;
+  height: 250px;
+  margin: auto;
+}
+.footer h2{
+ font-size: 50px; 
+ color: #4f46e5;
+ margin-bottom: 20px;
+  font-weight: 900;
+  /* letter-spacing: 2px; */
+}
+.footer p {
+      color: #7c7c8a;
+      font-size: 16px;
+      margin: 0 auto 30px;
+       
+       
+}   
+.footer-nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+}
+.footer-nav a {
+      color: #6c6c80;
+      text-decoration: none;
+      font-size: 15px;
+} 
+.footer-nav a:hover {
+      color: #4f46e5;
+}
